@@ -282,7 +282,7 @@ impl<'a> ModulePreset for ImportList<'a> {
                 ImportType::Function(
                     "ethereum",
                     "storageLoad2",
-                    FunctionType::new(vec![ValueType::I32, ValueType::I32, ValueType::I32], None),
+                    FunctionType::new(vec![ValueType::I32, ValueType::I32, ValueType::I32, ValueType::I32], None),
                 ),
                 // add by liangc <<<<<<<<<<<<<<<<<<<<<<<<<<<
 
